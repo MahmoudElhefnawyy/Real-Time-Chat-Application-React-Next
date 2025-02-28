@@ -1,6 +1,6 @@
 # Real-Time Chat Application
 
-A modern, feature-rich chat application built with React and TypeScript, featuring real-time messaging capabilities and an enhanced user experience.
+A modern, feature-rich chat application built with React , Next TypeScript and Tailwind, featuring real-time messaging capabilities and an enhanced user experience.
 
 ## Features
 
