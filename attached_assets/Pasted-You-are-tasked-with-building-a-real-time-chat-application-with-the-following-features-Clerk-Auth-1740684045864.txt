@@ -1,0 +1,96 @@
+You are tasked with building a real-time chat application with the following features:
+
+Clerk Authentication: Integrate Clerk for user authentication (sign-up, login, and logout).
+
+Modern UI/UX Design: Use Tailwind CSS for styling and shadcn/ui for pre-built, customizable components.
+
+UI Components:
+
+Sidebar: Displays a list of users and groups with avatars and online status.
+
+Chat Window: Displays messages, a message input area, and typing indicators.
+
+Essential Chat Features:
+
+Real-Time Messaging: Display messages in real-time (mock data for now).
+
+Typing Indicators: Show when a user is typing.
+
+Online Status: Display the online/offline status of users.
+
+Message Timestamps: Show timestamps for each message.
+
+Read Receipts: Show when a message has been read.
+
+Emoji Support: Allow users to send emojis.
+
+Responsive Design: Ensure the application works seamlessly on desktop, tablet, and mobile devices.
+
+Mock Data: Use mock data for users and messages (no database required).
+
+Tech Stack
+Frontend: Next.js, React.js, TypeScript, Tailwind CSS, shadcn/ui.
+
+Authentication: Clerk.
+
+Real-Time Communication: Mock data (no backend or database required for this phase).
+
+Deployment: Replit (for development) and Vercel (for production).
+
+Requirements
+1. Clerk Authentication
+Integrate Clerk for user authentication.
+
+Add a sign-up, login, and logout flow.
+
+Protect routes to ensure only authenticated users can access the chat.
+
+2. Sidebar Component
+Display a list of users and groups.
+
+Show user avatars, names, and online/offline status.
+
+Include a search bar to filter users/groups.
+
+Use shadcn/ui components like Avatar, Input, and ScrollArea.
+
+Ensure the sidebar is collapsible on smaller screens.
+
+3. Chat Window Component
+Display messages in a clean and organized layout.
+
+Show sender avatars, message text, and timestamps.
+
+Differentiate between sent and received messages (e.g., different colors or alignment).
+
+Include a message input area with:
+
+A text input field.
+
+A send button.
+
+An emoji picker.
+
+Use shadcn/ui components like Card, Button, and Input.
+
+4. Essential Chat Features
+Real-Time Messaging: Display messages in real-time using mock data.
+
+Typing Indicators: Show when a user is typing.
+
+Online Status: Display the online/offline status of users.
+
+Message Timestamps: Show timestamps for each message.
+
+Read Receipts: Show when a message has been read.
+
+Emoji Support: Allow users to send emojis using an emoji picker.
+
+Responsive Design: Ensure the layout is fully responsive and works seamlessly on desktop, tablet, and mobile devices.
+
+5. Styling
+Use Tailwind CSS for utility-first styling.
+
+Ensure the design is modern and visually appealing.
+
+Add hover and active states for interactive elements (e.g., buttons, user list items).
